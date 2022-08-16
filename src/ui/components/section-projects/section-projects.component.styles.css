@@ -1,0 +1,23 @@
+.div-section-project {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.project-pagination button {
+    padding: 10px;
+}
+
+.project-pagination p {
+    padding: 10px;
+    font-size: 30px;
+}

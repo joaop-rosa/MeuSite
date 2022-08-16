@@ -1,0 +1,4 @@
+.div-screen-content-project {
+    display: flex;
+    flex-direction: column;
+}

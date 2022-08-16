@@ -1,0 +1,55 @@
+.div-collage {
+    background: white;
+    padding: 12px;
+    border: solid 1px black;
+}
+
+.div-collage-item {
+    width: 250px;
+    height: 250px;
+}
+
+.div-collage-big-item {
+    width: 400px;
+    height: 65vh;
+}
+
+.div-collage-item-big {
+    width: 250px;
+    height: 250px;
+    background: white;
+    padding: 12px;
+    border: solid 1px black;
+}
+
+.div-collage-item-image {
+    border: solid 1px black;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-collage-item:hover {
+    transform: rotate(0);
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* .div-collage-item-image:hover {
+    animation: scaleUp 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+} */

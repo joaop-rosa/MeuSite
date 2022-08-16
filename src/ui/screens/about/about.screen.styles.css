@@ -1,0 +1,15 @@
+.div-about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    color: #E7AB79;
+    height: 25vh;
+
+}
+
+.div-screen-content-about {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
